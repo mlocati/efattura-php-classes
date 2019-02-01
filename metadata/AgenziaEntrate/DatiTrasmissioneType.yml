@@ -1,0 +1,42 @@
+MLocati\EFattura\AgenziaEntrate\DatiTrasmissioneType:
+    properties:
+        idTrasmittente:
+            expose: true
+            access_type: public_method
+            serialized_name: IdTrasmittente
+            accessor:
+                getter: getIdTrasmittente
+                setter: setIdTrasmittente
+            type: MLocati\EFattura\AgenziaEntrate\IdFiscaleType
+        progressivoInvio:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressivoInvio
+            accessor:
+                getter: getProgressivoInvio
+                setter: setProgressivoInvio
+            type: string
+        formatoTrasmissione:
+            expose: true
+            access_type: public_method
+            serialized_name: FormatoTrasmissione
+            accessor:
+                getter: getFormatoTrasmissione
+                setter: setFormatoTrasmissione
+            type: string
+        codiceDestinatario:
+            expose: true
+            access_type: public_method
+            serialized_name: CodiceDestinatario
+            accessor:
+                getter: getCodiceDestinatario
+                setter: setCodiceDestinatario
+            type: string
+        pECDestinatario:
+            expose: true
+            access_type: public_method
+            serialized_name: PECDestinatario
+            accessor:
+                getter: getPECDestinatario
+                setter: setPECDestinatario
+            type: string

@@ -1,0 +1,42 @@
+MLocati\EFattura\AgenziaEntrate\DatiBeniServiziType:
+    properties:
+        descrizione:
+            expose: true
+            access_type: public_method
+            serialized_name: Descrizione
+            accessor:
+                getter: getDescrizione
+                setter: setDescrizione
+            type: string
+        importo:
+            expose: true
+            access_type: public_method
+            serialized_name: Importo
+            accessor:
+                getter: getImporto
+                setter: setImporto
+            type: float
+        datiIVA:
+            expose: true
+            access_type: public_method
+            serialized_name: DatiIVA
+            accessor:
+                getter: getDatiIVA
+                setter: setDatiIVA
+            type: MLocati\EFattura\AgenziaEntrate\DatiIVAType
+        natura:
+            expose: true
+            access_type: public_method
+            serialized_name: Natura
+            accessor:
+                getter: getNatura
+                setter: setNatura
+            type: string
+        riferimentoNormativo:
+            expose: true
+            access_type: public_method
+            serialized_name: RiferimentoNormativo
+            accessor:
+                getter: getRiferimentoNormativo
+                setter: setRiferimentoNormativo
+            type: string

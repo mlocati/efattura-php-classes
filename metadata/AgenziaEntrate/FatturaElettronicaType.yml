@@ -1,0 +1,38 @@
+MLocati\EFattura\AgenziaEntrate\FatturaElettronicaType:
+    properties:
+        versione:
+            expose: true
+            access_type: public_method
+            serialized_name: versione
+            accessor:
+                getter: getVersione
+                setter: setVersione
+            xml_attribute: true
+            type: string
+        fatturaElettronicaHeader:
+            expose: true
+            access_type: public_method
+            serialized_name: FatturaElettronicaHeader
+            accessor:
+                getter: getFatturaElettronicaHeader
+                setter: setFatturaElettronicaHeader
+            type: MLocati\EFattura\AgenziaEntrate\FatturaElettronicaHeaderType
+        fatturaElettronicaBody:
+            expose: true
+            access_type: public_method
+            serialized_name: FatturaElettronicaBody
+            accessor:
+                getter: getFatturaElettronicaBody
+                setter: setFatturaElettronicaBody
+            xml_list:
+                inline: true
+                entry_name: FatturaElettronicaBody
+            type: array<MLocati\EFattura\AgenziaEntrate\FatturaElettronicaBodyType>
+        signature:
+            expose: true
+            access_type: public_method
+            serialized_name: Signature
+            accessor:
+                getter: getSignature
+                setter: setSignature
+            type: MLocati\EFattura\DSig\Signature

@@ -1,0 +1,82 @@
+MLocati\EFattura\AgenziaEntrate\CedentePrestatoreType:
+    properties:
+        idFiscaleIVA:
+            expose: true
+            access_type: public_method
+            serialized_name: IdFiscaleIVA
+            accessor:
+                getter: getIdFiscaleIVA
+                setter: setIdFiscaleIVA
+            type: MLocati\EFattura\AgenziaEntrate\IdFiscaleType
+        codiceFiscale:
+            expose: true
+            access_type: public_method
+            serialized_name: CodiceFiscale
+            accessor:
+                getter: getCodiceFiscale
+                setter: setCodiceFiscale
+            type: string
+        denominazione:
+            expose: true
+            access_type: public_method
+            serialized_name: Denominazione
+            accessor:
+                getter: getDenominazione
+                setter: setDenominazione
+            type: string
+        nome:
+            expose: true
+            access_type: public_method
+            serialized_name: Nome
+            accessor:
+                getter: getNome
+                setter: setNome
+            type: string
+        cognome:
+            expose: true
+            access_type: public_method
+            serialized_name: Cognome
+            accessor:
+                getter: getCognome
+                setter: setCognome
+            type: string
+        sede:
+            expose: true
+            access_type: public_method
+            serialized_name: Sede
+            accessor:
+                getter: getSede
+                setter: setSede
+            type: MLocati\EFattura\AgenziaEntrate\IndirizzoType
+        stabileOrganizzazione:
+            expose: true
+            access_type: public_method
+            serialized_name: StabileOrganizzazione
+            accessor:
+                getter: getStabileOrganizzazione
+                setter: setStabileOrganizzazione
+            type: MLocati\EFattura\AgenziaEntrate\IndirizzoType
+        rappresentanteFiscale:
+            expose: true
+            access_type: public_method
+            serialized_name: RappresentanteFiscale
+            accessor:
+                getter: getRappresentanteFiscale
+                setter: setRappresentanteFiscale
+            type: MLocati\EFattura\AgenziaEntrate\RappresentanteFiscaleType
+        iscrizioneREA:
+            expose: true
+            access_type: public_method
+            serialized_name: IscrizioneREA
+            accessor:
+                getter: getIscrizioneREA
+                setter: setIscrizioneREA
+            type: MLocati\EFattura\AgenziaEntrate\IscrizioneREAType
+        regimeFiscale:
+            expose: true
+            access_type: public_method
+            serialized_name: RegimeFiscale
+            accessor:
+                getter: getRegimeFiscale
+                setter: setRegimeFiscale
+            type: string

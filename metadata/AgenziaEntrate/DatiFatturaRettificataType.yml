@@ -1,0 +1,26 @@
+MLocati\EFattura\AgenziaEntrate\DatiFatturaRettificataType:
+    properties:
+        numeroFR:
+            expose: true
+            access_type: public_method
+            serialized_name: NumeroFR
+            accessor:
+                getter: getNumeroFR
+                setter: setNumeroFR
+            type: string
+        dataFR:
+            expose: true
+            access_type: public_method
+            serialized_name: DataFR
+            accessor:
+                getter: getDataFR
+                setter: setDataFR
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        elementiRettificati:
+            expose: true
+            access_type: public_method
+            serialized_name: ElementiRettificati
+            accessor:
+                getter: getElementiRettificati
+                setter: setElementiRettificati
+            type: string

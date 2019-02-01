@@ -1,0 +1,18 @@
+MLocati\EFattura\AgenziaEntrate\IdentificativiFiscaliType:
+    properties:
+        idFiscaleIVA:
+            expose: true
+            access_type: public_method
+            serialized_name: IdFiscaleIVA
+            accessor:
+                getter: getIdFiscaleIVA
+                setter: setIdFiscaleIVA
+            type: MLocati\EFattura\AgenziaEntrate\IdFiscaleType
+        codiceFiscale:
+            expose: true
+            access_type: public_method
+            serialized_name: CodiceFiscale
+            accessor:
+                getter: getCodiceFiscale
+                setter: setCodiceFiscale
+            type: string

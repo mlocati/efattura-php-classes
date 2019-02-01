@@ -1,0 +1,34 @@
+MLocati\EFattura\AgenziaEntrate\DatiGeneraliDocumentoType:
+    properties:
+        tipoDocumento:
+            expose: true
+            access_type: public_method
+            serialized_name: TipoDocumento
+            accessor:
+                getter: getTipoDocumento
+                setter: setTipoDocumento
+            type: string
+        divisa:
+            expose: true
+            access_type: public_method
+            serialized_name: Divisa
+            accessor:
+                getter: getDivisa
+                setter: setDivisa
+            type: string
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: Data
+            accessor:
+                getter: getData
+                setter: setData
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        numero:
+            expose: true
+            access_type: public_method
+            serialized_name: Numero
+            accessor:
+                getter: getNumero
+                setter: setNumero
+            type: string

@@ -1,0 +1,18 @@
+MLocati\EFattura\AgenziaEntrate\DatiGeneraliType:
+    properties:
+        datiGeneraliDocumento:
+            expose: true
+            access_type: public_method
+            serialized_name: DatiGeneraliDocumento
+            accessor:
+                getter: getDatiGeneraliDocumento
+                setter: setDatiGeneraliDocumento
+            type: MLocati\EFattura\AgenziaEntrate\DatiGeneraliDocumentoType
+        datiFatturaRettificata:
+            expose: true
+            access_type: public_method
+            serialized_name: DatiFatturaRettificata
+            accessor:
+                getter: getDatiFatturaRettificata
+                setter: setDatiFatturaRettificata
+            type: MLocati\EFattura\AgenziaEntrate\DatiFatturaRettificataType

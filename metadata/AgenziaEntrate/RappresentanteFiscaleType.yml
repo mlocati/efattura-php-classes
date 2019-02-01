@@ -1,0 +1,34 @@
+MLocati\EFattura\AgenziaEntrate\RappresentanteFiscaleType:
+    properties:
+        idFiscaleIVA:
+            expose: true
+            access_type: public_method
+            serialized_name: IdFiscaleIVA
+            accessor:
+                getter: getIdFiscaleIVA
+                setter: setIdFiscaleIVA
+            type: MLocati\EFattura\AgenziaEntrate\IdFiscaleType
+        denominazione:
+            expose: true
+            access_type: public_method
+            serialized_name: Denominazione
+            accessor:
+                getter: getDenominazione
+                setter: setDenominazione
+            type: string
+        nome:
+            expose: true
+            access_type: public_method
+            serialized_name: Nome
+            accessor:
+                getter: getNome
+                setter: setNome
+            type: string
+        cognome:
+            expose: true
+            access_type: public_method
+            serialized_name: Cognome
+            accessor:
+                getter: getCognome
+                setter: setCognome
+            type: string

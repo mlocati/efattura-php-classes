@@ -1,0 +1,18 @@
+MLocati\EFattura\AgenziaEntrate\IdFiscaleType:
+    properties:
+        idPaese:
+            expose: true
+            access_type: public_method
+            serialized_name: IdPaese
+            accessor:
+                getter: getIdPaese
+                setter: setIdPaese
+            type: string
+        idCodice:
+            expose: true
+            access_type: public_method
+            serialized_name: IdCodice
+            accessor:
+                getter: getIdCodice
+                setter: setIdCodice
+            type: string

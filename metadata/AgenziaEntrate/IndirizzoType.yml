@@ -1,0 +1,50 @@
+MLocati\EFattura\AgenziaEntrate\IndirizzoType:
+    properties:
+        indirizzo:
+            expose: true
+            access_type: public_method
+            serialized_name: Indirizzo
+            accessor:
+                getter: getIndirizzo
+                setter: setIndirizzo
+            type: string
+        numeroCivico:
+            expose: true
+            access_type: public_method
+            serialized_name: NumeroCivico
+            accessor:
+                getter: getNumeroCivico
+                setter: setNumeroCivico
+            type: string
+        cAP:
+            expose: true
+            access_type: public_method
+            serialized_name: CAP
+            accessor:
+                getter: getCAP
+                setter: setCAP
+            type: string
+        comune:
+            expose: true
+            access_type: public_method
+            serialized_name: Comune
+            accessor:
+                getter: getComune
+                setter: setComune
+            type: string
+        provincia:
+            expose: true
+            access_type: public_method
+            serialized_name: Provincia
+            accessor:
+                getter: getProvincia
+                setter: setProvincia
+            type: string
+        nazione:
+            expose: true
+            access_type: public_method
+            serialized_name: Nazione
+            accessor:
+                getter: getNazione
+                setter: setNazione
+            type: string

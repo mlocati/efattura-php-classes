@@ -1,0 +1,18 @@
+MLocati\EFattura\AgenziaEntrate\DatiIVAType:
+    properties:
+        imposta:
+            expose: true
+            access_type: public_method
+            serialized_name: Imposta
+            accessor:
+                getter: getImposta
+                setter: setImposta
+            type: float
+        aliquota:
+            expose: true
+            access_type: public_method
+            serialized_name: Aliquota
+            accessor:
+                getter: getAliquota
+                setter: setAliquota
+            type: float

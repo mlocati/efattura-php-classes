@@ -1,0 +1,50 @@
+MLocati\EFattura\AgenziaEntrate\AltriDatiIdentificativiType:
+    properties:
+        denominazione:
+            expose: true
+            access_type: public_method
+            serialized_name: Denominazione
+            accessor:
+                getter: getDenominazione
+                setter: setDenominazione
+            type: string
+        nome:
+            expose: true
+            access_type: public_method
+            serialized_name: Nome
+            accessor:
+                getter: getNome
+                setter: setNome
+            type: string
+        cognome:
+            expose: true
+            access_type: public_method
+            serialized_name: Cognome
+            accessor:
+                getter: getCognome
+                setter: setCognome
+            type: string
+        sede:
+            expose: true
+            access_type: public_method
+            serialized_name: Sede
+            accessor:
+                getter: getSede
+                setter: setSede
+            type: MLocati\EFattura\AgenziaEntrate\IndirizzoType
+        stabileOrganizzazione:
+            expose: true
+            access_type: public_method
+            serialized_name: StabileOrganizzazione
+            accessor:
+                getter: getStabileOrganizzazione
+                setter: setStabileOrganizzazione
+            type: MLocati\EFattura\AgenziaEntrate\IndirizzoType
+        rappresentanteFiscale:
+            expose: true
+            access_type: public_method
+            serialized_name: RappresentanteFiscale
+            accessor:
+                getter: getRappresentanteFiscale
+                setter: setRappresentanteFiscale
+            type: MLocati\EFattura\AgenziaEntrate\RappresentanteFiscaleType

@@ -1,0 +1,34 @@
+MLocati\EFattura\AgenziaEntrate\FatturaElettronicaHeaderType:
+    properties:
+        datiTrasmissione:
+            expose: true
+            access_type: public_method
+            serialized_name: DatiTrasmissione
+            accessor:
+                getter: getDatiTrasmissione
+                setter: setDatiTrasmissione
+            type: MLocati\EFattura\AgenziaEntrate\DatiTrasmissioneType
+        cedentePrestatore:
+            expose: true
+            access_type: public_method
+            serialized_name: CedentePrestatore
+            accessor:
+                getter: getCedentePrestatore
+                setter: setCedentePrestatore
+            type: MLocati\EFattura\AgenziaEntrate\CedentePrestatoreType
+        cessionarioCommittente:
+            expose: true
+            access_type: public_method
+            serialized_name: CessionarioCommittente
+            accessor:
+                getter: getCessionarioCommittente
+                setter: setCessionarioCommittente
+            type: MLocati\EFattura\AgenziaEntrate\CessionarioCommittenteType
+        soggettoEmittente:
+            expose: true
+            access_type: public_method
+            serialized_name: SoggettoEmittente
+            accessor:
+                getter: getSoggettoEmittente
+                setter: setSoggettoEmittente
+            type: string

@@ -1,0 +1,42 @@
+MLocati\EFattura\AgenziaEntrate\AllegatiType:
+    properties:
+        nomeAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: NomeAttachment
+            accessor:
+                getter: getNomeAttachment
+                setter: setNomeAttachment
+            type: string
+        algoritmoCompressione:
+            expose: true
+            access_type: public_method
+            serialized_name: AlgoritmoCompressione
+            accessor:
+                getter: getAlgoritmoCompressione
+                setter: setAlgoritmoCompressione
+            type: string
+        formatoAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: FormatoAttachment
+            accessor:
+                getter: getFormatoAttachment
+                setter: setFormatoAttachment
+            type: string
+        descrizioneAttachment:
+            expose: true
+            access_type: public_method
+            serialized_name: DescrizioneAttachment
+            accessor:
+                getter: getDescrizioneAttachment
+                setter: setDescrizioneAttachment
+            type: string
+        attachment:
+            expose: true
+            access_type: public_method
+            serialized_name: Attachment
+            accessor:
+                getter: getAttachment
+                setter: setAttachment
+            type: \AnySimpleType

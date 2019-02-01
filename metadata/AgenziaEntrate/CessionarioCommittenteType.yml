@@ -1,0 +1,18 @@
+MLocati\EFattura\AgenziaEntrate\CessionarioCommittenteType:
+    properties:
+        identificativiFiscali:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentificativiFiscali
+            accessor:
+                getter: getIdentificativiFiscali
+                setter: setIdentificativiFiscali
+            type: MLocati\EFattura\AgenziaEntrate\IdentificativiFiscaliType
+        altriDatiIdentificativi:
+            expose: true
+            access_type: public_method
+            serialized_name: AltriDatiIdentificativi
+            accessor:
+                getter: getAltriDatiIdentificativi
+                setter: setAltriDatiIdentificativi
+            type: MLocati\EFattura\AgenziaEntrate\AltriDatiIdentificativiType

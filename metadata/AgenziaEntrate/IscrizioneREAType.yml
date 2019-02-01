@@ -1,0 +1,42 @@
+MLocati\EFattura\AgenziaEntrate\IscrizioneREAType:
+    properties:
+        ufficio:
+            expose: true
+            access_type: public_method
+            serialized_name: Ufficio
+            accessor:
+                getter: getUfficio
+                setter: setUfficio
+            type: string
+        numeroREA:
+            expose: true
+            access_type: public_method
+            serialized_name: NumeroREA
+            accessor:
+                getter: getNumeroREA
+                setter: setNumeroREA
+            type: string
+        capitaleSociale:
+            expose: true
+            access_type: public_method
+            serialized_name: CapitaleSociale
+            accessor:
+                getter: getCapitaleSociale
+                setter: setCapitaleSociale
+            type: float
+        socioUnico:
+            expose: true
+            access_type: public_method
+            serialized_name: SocioUnico
+            accessor:
+                getter: getSocioUnico
+                setter: setSocioUnico
+            type: string
+        statoLiquidazione:
+            expose: true
+            access_type: public_method
+            serialized_name: StatoLiquidazione
+            accessor:
+                getter: getStatoLiquidazione
+                setter: setStatoLiquidazione
+            type: string
